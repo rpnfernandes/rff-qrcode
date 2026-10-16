@@ -1,0 +1,44 @@
+{
+    "name": "rff/qrcode",
+    "description": "Zero-dependency pure PHP QR Code generator (ISO/IEC 18004 compliant) with SVG and Data URI rendering.",
+    "keywords": [
+        "qrcode",
+        "qr-code",
+        "qr",
+        "generator",
+        "svg",
+        "vector",
+        "psr-4",
+        "zero-dependency",
+        "pure-php"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rui Fernandes",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5 || ^10.0 || ^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RFF\\QrCode\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RFF\\QrCode\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

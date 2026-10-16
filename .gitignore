@@ -21,3 +21,5 @@ Thumbs.db
 *.log
 /scratch/
 /tmp/
+giant_qr_test.html
+giant_qr.svg

@@ -12,7 +12,7 @@ require_once __DIR__ . '/../src/QrCode.php';
 use RFF\QrCode\QrCode;
 
 // 1. Basic SVG generation (default square 200x200)
-$svg = QrCode::svg('https://github.com/rfernandes/rff-qrcode');
+$svg = QrCode::svg('https://github.com/rpnfernandes/rff-qrcode');
 
 // 2. Custom dimensions: separate width and height (360x220)
 $dimensionSvg = QrCode::svg(

@@ -24,7 +24,7 @@ class QrCodeGeneratorTest extends TestCase
 
     public function testRenderSvgOutputStructure(): void
     {
-        $svg = QrCodeGenerator::renderSvg('https://github.com/rfernandes/rff-qrcode', 300);
+        $svg = QrCodeGenerator::renderSvg('https://github.com/rpnfernandes/rff-qrcode', 300);
 
         $this->assertStringStartsWith('<svg xmlns="http://www.w3.org/2000/svg"', $svg);
         $this->assertStringEndsWith('</svg>', $svg);

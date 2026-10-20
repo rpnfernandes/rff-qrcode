@@ -4,11 +4,12 @@
 
 **A lightweight, zero-dependency, pure PHP QR Code Generator compliant with ISO/IEC 18004 (Versions 1 to 40).**
 
-[![Latest Version](https://img.shields.io/badge/version-2.3.0-blue.svg?style=flat-square)](https://github.com/rfernandes/rff-qrcode)
-[![PHP Version](https://img.shields.io/badge/php-%3E%3D8.0-8892BF.svg?style=flat-square)](https://php.net)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/rpnfernandes/rff-qrcode.svg?style=flat-square)](https://packagist.org/packages/rpnfernandes/rff-qrcode)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/rpnfernandes/rff-qrcode/tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/rpnfernandes/rff-qrcode/actions)
+[![Total Downloads](https://img.shields.io/packagist/dt/rpnfernandes/rff-qrcode.svg?style=flat-square)](https://packagist.org/packages/rpnfernandes/rff-qrcode)
+[![PHP Version Require](https://img.shields.io/packagist/php-v/rpnfernandes/rff-qrcode.svg?style=flat-square)](https://packagist.org/packages/rpnfernandes/rff-qrcode)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-0-success.svg?style=flat-square)](#highlights)
-[![PSR-4 Compliant](https://img.shields.io/badge/PSR--4-compliant-brightgreen.svg?style=flat-square)](#installation)
 
 Generate high-performance, infinite-resolution vector **SVG** and **Base64 Data URI** QR codes with 100% native PHP — no GD, no ImageMagick, and zero third-party packages required.
 
@@ -40,7 +41,7 @@ Generate high-performance, infinite-resolution vector **SVG** and **Base64 Data 
 Install the package via [Composer](https://getcomposer.org/):
 
 ```bash
-composer require rff/qrcode
+composer require rpnfernandes/rff-qrcode
 ```
 
 ---
@@ -104,7 +105,7 @@ $svg = QrCode::svg(
 use RFF\QrCode\QrCode;
 
 $svg = QrCode::svg(
-    text: 'https://github.com/rfernandes/rff-qrcode',
+    text: 'https://github.com/rpnfernandes/rff-qrcode',
     width: 320,
     height: 320,
     fg: '#1e3a8a',           // Foreground module color

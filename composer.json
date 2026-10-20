@@ -1,6 +1,6 @@
 {
-    "name": "rff/qrcode",
-    "description": "Zero-dependency pure PHP QR Code generator (ISO/IEC 18004 compliant) with SVG and Data URI rendering.",
+    "name": "rpnfernandes/rff-qrcode",
+    "description": "Zero-dependency pure PHP QR Code generator (ISO/IEC 18004 compliant, Versions 1-40) with SVG and Data URI rendering.",
     "keywords": [
         "qrcode",
         "qr-code",
@@ -12,14 +12,20 @@
         "zero-dependency",
         "pure-php"
     ],
+    "homepage": "https://github.com/rpnfernandes/rff-qrcode",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Rui Fernandes",
+            "homepage": "https://github.com/rpnfernandes",
             "role": "Developer"
         }
     ],
+    "support": {
+        "issues": "https://github.com/rpnfernandes/rff-qrcode/issues",
+        "source": "https://github.com/rpnfernandes/rff-qrcode"
+    },
     "require": {
         "php": ">=8.0"
     },
@@ -38,6 +44,9 @@
     },
     "scripts": {
         "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
     },
     "minimum-stability": "stable",
     "prefer-stable": true
